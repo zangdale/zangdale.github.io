@@ -4,8 +4,8 @@ run:
 	hugo -D server
 
 build:
-	hugo -D
+	rm -rf docs/ && hugo -D
 
 push:
-	rm -rf docs/ && mv public/ docs/
+	mv public/ docs/
 	git add -A && git commit -m "add doc" && git push
