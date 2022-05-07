@@ -1,4 +1,4 @@
-baseURL = 'http://zangdale.github.io/'
+baseURL = 'https://zangdale.github.io/'
 languageCode = 'en-us'
 title = 'Zang Da Le'
 theme = "blist"
