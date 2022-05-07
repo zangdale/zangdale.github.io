@@ -7,5 +7,5 @@ build:
 	hugo -D
 
 push:
-	mv public/ docs/
+	rm -rf docs/ && mv public/ docs/
 	git add -A && git commit -m "add doc" && git push
